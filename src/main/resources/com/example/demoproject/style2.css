@@ -1,0 +1,22 @@
+/* Пример стилей для hello-view.fxml */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view {
+    -fx-border-color: #51068b;
+    -fx-border-width: 2;
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: #51068b;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10;
+}
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: gray;
+}

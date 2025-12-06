@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demoproject.HelloController">
+   <children>
+      <Label layoutX="251.0" layoutY="30.0" text="STUDENT INFORMATION SYSTEM">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchField" layoutX="30.0" layoutY="70.0" prefWidth="400.0" promptText="Search by ID, Name, Surname"/>
+      <Label layoutX="58.0" layoutY="189.0" text="Name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="233.0" text="Surname">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="142.0" text="ID">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="274.0" text="Email">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="314.0" text="Group">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="365.0" text="GPA">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idInput" layoutX="187.0" layoutY="145.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameInput" layoutX="187.0" layoutY="189.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="surnameInput" layoutX="187.0" layoutY="236.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailInput" layoutX="187.0" layoutY="277.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="groupInput" layoutX="187.0" layoutY="321.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="gpaInput" layoutX="187.0" layoutY="372.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button layoutX="78.0" layoutY="437.0" mnemonicParsing="false" onAction="#handleSave" text="ADD">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="198.0" layoutY="434.0" mnemonicParsing="false" onAction="#onPrintClick" prefHeight="35.0" prefWidth="87.0" text="Print">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <TableView fx:id="studentTable" layoutX="467.0" layoutY="136.0" prefHeight="370.0" prefWidth="532.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="136.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="surnameColumn" prefWidth="75.0" text="Surname" />
+            <TableColumn fx:id="emailColumn" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="groupColumn" prefWidth="75.0" text="Group" />
+            <TableColumn fx:id="gpaColumn" prefWidth="75.0" text="GPA" />
+        </columns>
+      </TableView>
+      <Button layoutX="325.0" layoutY="439.0" mnemonicParsing="false" onAction="#handleSaveChanges" prefHeight="35.0" prefWidth="94.0" text="Save changes" />
+   </children>
+</AnchorPane>

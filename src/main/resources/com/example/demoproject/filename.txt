@@ -1,0 +1,7 @@
+id,name,surname,email,group
+,gpa1,aaa,bbb,aaa@gmail.com,SCA1,100
+2,John,Doe,john.doe@example.com,CS101,37
+3,fgsd,asda,sad,sad,99
+4,gdsgf,dsf,sad,asd,33
+5,ewr,werew,weqw,wqeq,89
+8,тт,ттт,ттт,ттт,56
