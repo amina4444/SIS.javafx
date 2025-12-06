@@ -14,9 +14,7 @@ import java.io.File;
 import java.io.FileWriter;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 public class HelloController {
@@ -112,6 +110,8 @@ public class HelloController {
             if (selected != null) {
                 students.remove(selected);
                 studentTable.refresh();
+                saveJSON();
+                saveCSV();
             }
         });
 
@@ -136,41 +136,8 @@ public class HelloController {
             return row;
         });
     }
-
-
-
     @FXML
     void handleSave(ActionEvent event) {
-//        try {
-//            int id = Integer.parseInt(idInput.getText());
-//            String name = nameInput.getText();
-//            String surname = surnameInput.getText();
-//            String email = emailInput.getText();
-//            String group = groupInput.getText();
-//            int gpa =  Integer.parseInt(gpaInput.getText());
-//
-//            Student student = new Student(id, name, surname);
-//            student.setEmail(email);
-//            student.setGroup(group);
-//            student.setGpa(gpa);
-//
-//            students.add(student);// when we add students list, tableview is updated automatically
-//            studentTable.refresh();
-//
-//            System.out.println("Student successfully added to the list.");
-//            idInput.setText("");
-//            nameInput.setText("");
-//            surnameInput.setText("");
-//            emailInput.setText("");
-//            groupInput.setText("");
-//            gpaInput.setText("");
-//
-//        }
-//        catch(Exception e){
-//            System.out.println(e.getMessage());
-//        }
-
-
         try {
             if(idInput.getText().isEmpty() || nameInput.getText().isEmpty() || surnameInput.getText().isEmpty()) {
                 infoLabel.setText("ID, Name and Surname are required!");
@@ -183,6 +150,8 @@ public class HelloController {
             Student student = new Student(id, nameInput.getText(), surnameInput.getText(),
                     emailInput.getText(), groupInput.getText(), gpa);
             students.add(student);
+            saveJSON();
+            saveCSV();
             studentTable.refresh();
 
             // Очистка полей
@@ -208,6 +177,8 @@ public class HelloController {
                 selected.setGpa(Integer.parseInt(gpaInput.getText()));
 
                 studentTable.refresh(); // Обновляем таблицу
+                saveJSON();
+                saveCSV();
 
                 System.out.println("Changes saved.");
             } catch (Exception e) {
@@ -307,10 +278,14 @@ public class HelloController {
 
     }
 
-    @FXML
-    void onSave(ActionEvent event) {
+    //  @FXML
+   // void onSave(ActionEvent event) {
 
-        this.saveCSV();
-        this.saveJSON();
-    }
+       // this.saveCSV();
+       // this.saveJSON();
+    // students.add(student);
+   // saveJSON();
+   // saveCSV();
+
 }
+
