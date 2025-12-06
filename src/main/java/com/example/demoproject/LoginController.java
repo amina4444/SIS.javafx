@@ -72,8 +72,6 @@ public class LoginController {
             infoLabel.setText("Fill all fields");
             return;
         }
-
-        // Ищем пользователя в списке
         User matchedUser = users.stream()
                 .filter(u -> u.getLogin().equals(login))
                 .findFirst()
@@ -93,7 +91,6 @@ public class LoginController {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
             Stage stage = (Stage) loginInput.getScene().getWindow();
-            stage.setScene(new Scene(loader.load()));
             Scene scene = new Scene(loader.load());
             scene.getStylesheets().add(getClass().getResource("style2.css").toExternalForm());
             stage.setScene(scene);

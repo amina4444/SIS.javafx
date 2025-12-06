@@ -1,1 +1,241 @@
-[{"id":1,"name":"aaa","surname":"bbb","email":"aaa@gmail.com","group":"SCA1","gpa":100},{"id":2,"name":"John","surname":"Doe","email":"john.doe@example.com","group":"CS101","gpa":37},{"id":3,"name":"fgsd","surname":"asda","email":"sad","group":"sad","gpa":99},{"id":4,"name":"gdsgf","surname":"dsf","email":"sad","group":"asd","gpa":33},{"id":5,"name":"ewr","surname":"werew","email":"weqw","group":"wqeq","gpa":89},{"id":8,"name":"тт","surname":"ттт","email":"ттт","group":"ттт","gpa":56}]
+[{
+    "id": 1,
+    "name": "James",
+    "surname": "Smith",
+    "email": "james.smith@example.com",
+    "group": "CS101",
+    "gpa": 85
+  },
+  {
+    "id": 2,
+    "name": "Mary",
+    "surname": "Johnson",
+    "email": "mary.johnson@example.com",
+    "group": "ENG202",
+    "gpa": 92
+  },
+  {
+    "id": 3,
+    "name": "Robert",
+    "surname": "Williams",
+    "email": "robert.williams@example.com",
+    "group": "MAT301",
+    "gpa": 78
+  },
+  {
+    "id": 4,
+    "name": "Patricia",
+    "surname": "Brown",
+    "email": "patricia.brown@example.com",
+    "group": "PHY101",
+    "gpa": 95
+  },
+  {
+    "id": 5,
+    "name": "Michael",
+    "surname": "Jones",
+    "email": "michael.jones@example.com",
+    "group": "CS101",
+    "gpa": 72
+  },
+  {
+    "id": 6,
+    "name": "Linda",
+    "surname": "Garcia",
+    "email": "linda.garcia@example.com",
+    "group": "ART101",
+    "gpa": 88
+  },
+  {
+    "id": 7,
+    "name": "William",
+    "surname": "Miller",
+    "email": "william.miller@example.com",
+    "group": "ENG202",
+    "gpa": 75
+  },
+  {
+    "id": 8,
+    "name": "Elizabeth",
+    "surname": "Davis",
+    "email": "elizabeth.davis@example.com",
+    "group": "BIO101",
+    "gpa": 91
+  },
+  {
+    "id": 9,
+    "name": "David",
+    "surname": "Rodriguez",
+    "email": "david.rodriguez@example.com",
+    "group": "CS101",
+    "gpa": 65
+  },
+  {
+    "id": 10,
+    "name": "Susan",
+    "surname": "Martinez",
+    "email": "susan.martinez@example.com",
+    "group": "HIS101",
+    "gpa": 80
+  },
+  {
+    "id": 11,
+    "name": "Richard",
+    "surname": "Hernandez",
+    "email": "richard.hernandez@example.com",
+    "group": "MAT301",
+    "gpa": 83
+  },
+  {
+    "id": 12,
+    "name": "Jessica",
+    "surname": "Lopez",
+    "email": "jessica.lopez@example.com",
+    "group": "PHY101",
+    "gpa": 94
+  },
+  {
+    "id": 13,
+    "name": "Joseph",
+    "surname": "Quinn",
+    "email": "joseph@example.com",
+    "group": "CS101",
+    "gpa": 70
+  },
+  {
+    "id": 14,
+    "name": "Sarah",
+    "surname": "Wilson",
+    "email": "sarah.wilson@example.com",
+    "group": "ENG202",
+    "gpa": 89
+  },
+  {
+    "id": 15,
+    "name": "Charles",
+    "surname": "Anderson",
+    "email": "charles.anderson@example.com",
+    "group": "BIO101",
+    "gpa": 77
+  },
+  {
+    "id": 16,
+    "name": "Karen",
+    "surname": "Thomas",
+    "email": "karen.thomas@example.com",
+    "group": "ART101",
+    "gpa": 90
+  },
+  {
+    "id": 17,
+    "name": "Thomas",
+    "surname": "Taylor",
+    "email": "thomas.taylor@example.com",
+    "group": "MAT301",
+    "gpa": 81
+  },
+  {
+    "id": 18,
+    "name": "Nancy",
+    "surname": "Willer",
+    "email": "nancy.willer@example.com",
+    "group": "HIS101",
+    "gpa": 76
+  },
+  {
+    "id": 19,
+    "name": "Daniel",
+    "surname": "Jackson",
+    "email": "daniel.jackson@example.com",
+    "group": "CS101",
+    "gpa": 68
+  },
+  {
+    "id": 20,
+    "name": "Margaret",
+    "surname": "White",
+    "email": "margaret.white@example.com",
+    "group": "ENG202",
+    "gpa": 93
+  },
+  {
+    "id": 21,
+    "name": "Christopher",
+    "surname": "Harris",
+    "email": "christopher.harris@example.com",
+    "group": "PHY101",
+    "gpa": 84
+  },
+  {
+    "id": 22,
+    "name": "Betty",
+    "surname": "Clark",
+    "email": "betty.clark@example.com",
+    "group": "BIO101",
+    "gpa": 79
+  },
+  {
+    "id": 23,
+    "name": "Paul",
+    "surname": "Lewis",
+    "email": "paul.lewis@example.com",
+    "group": "CS101",
+    "gpa": 87
+  },
+  {
+    "id": 24,
+    "name": "Dorothy",
+    "surname": "Robinson",
+    "email": "dorothy.robinson@example.com",
+    "group": "ART101",
+    "gpa": 96
+  },
+  {
+    "id": 25,
+    "name": "Mark",
+    "surname": "Walker",
+    "email": "mark.walker@example.com",
+    "group": "MAT301",
+    "gpa": 74
+  },
+  {
+    "id": 26,
+    "name": "Helen",
+    "surname": "Perez",
+    "email": "helen.perez@example.com",
+    "group": "HIS101",
+    "gpa": 82
+  },
+  {
+    "id": 27,
+    "name": "George",
+    "surname": "Hall",
+    "email": "george.hall@example.com",
+    "group": "CS101",
+    "gpa": 69
+  },
+  {
+    "id": 28,
+    "name": "Donna",
+    "surname": "Young",
+    "email": "donna.young@example.com",
+    "group": "ENG202",
+    "gpa": 98
+  },
+  {
+    "id": 29,
+    "name": "Kenneth",
+    "surname": "Allen",
+    "email": "kenneth.allen@example.com",
+    "group": "PHY101",
+    "gpa": 71
+  },
+  {
+    "id": 30,
+    "name": "Sandra",
+    "surname": "Sanchez",
+    "email": "sandra.sanchez@example.com",
+    "group": "BIO101",
+    "gpa": 86
+  }
+]

@@ -1,4 +1,4 @@
-/* Пример стилей для hello-view.fxml */
+
 .root {
     -fx-background-color: #f0f0f0;
 }
@@ -18,5 +18,5 @@
 .text-field {
     -fx-background-radius: 5;
     -fx-border-radius: 5;
-    -fx-border-color: gray;
+    -fx-border-color: #8546bf;
 }
