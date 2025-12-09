@@ -24,8 +24,9 @@ id,name,surname,email,group
 23,Paul,Lewis,paul.lewis@example.com,CS101,87
 24,Dorothy,Robinson,dorothy.robinson@example.com,ART101,96
 25,Mark,Walker,mark.walker@example.com,MAT301,74
-26,Helen,Perez,helen.perez@example.com,HIS101,82
+26,Helen,Perez,helen.perez@example.com,HIS101,96
 27,George,Hall,george.hall@example.com,CS101,69
 28,Donna,Young,donna.young@example.com,ENG202,98
 29,Kenneth,Allen,kenneth.allen@example.com,PHY101,71
 30,Sandra,Sanchez,sandra.sanchez@example.com,BIO101,100
+31,Elli,Perez,helen.perez@example.com,HIS101,96
