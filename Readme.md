@@ -20,10 +20,14 @@
 - Загрузка данных при запуске приложения
 
 ---
-![login.png](../../Documents/Pictures/login.png)
+
+<img width="743" height="466" alt="image" src="https://github.com/user-attachments/assets/2a4c0def-40b2-4060-9314-9c400ce59815" />
 
 
-![Screenshot 7.png](../../Documents/Pictures/Screenshot%207.png)
+<img width="746" height="470" alt="image" src="https://github.com/user-attachments/assets/e2e44323-afa4-455f-8768-f9d5315a644d" />
+
+
+
 
 ## Проектные решения
 - **JavaFX + FXML** используются для разделения пользовательского интерфейса и логики приложения.
