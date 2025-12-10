@@ -27,8 +27,6 @@ public class LoginController {
     @FXML
     public void initialize() {
         loadUsersFromJson();
-
-        // Связываем видимое и скрытое поле пароля
         passwordVisibleInput.managedProperty().bind(showPasswordCheckBox.selectedProperty());
         passwordVisibleInput.visibleProperty().bind(showPasswordCheckBox.selectedProperty());
 

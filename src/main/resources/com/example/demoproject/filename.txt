@@ -18,10 +18,10 @@ id,name,surname,email,group
 17,Thomas,Taylor,thomas.taylor@example.com,MAT301,81
 18,Nancy,Willer,nancy.willer@example.com,HIS101,76
 19,Daniel,Jackson,daniel.jackson@example.com,CS101,68
-20,Margaret,White,margaret.white@example.com,ENG202,93
+20,Margaret,White,margaret.white@example.com,fhjs56,93
 21,Christopher,Harris,christopher.harris@example.com,PHY101,84
 22,Betty,Clark,betty.clark@example.com,BIO101,79
-23,Paul,Lewis,paul.lewis@example.com,CS101,87
+23,Paul,Lewis,paul.lewis@example.com,CS101,100
 24,Dorothy,Robinson,dorothy.robinson@example.com,ART101,96
 25,Mark,Walker,mark.walker@example.com,MAT301,74
 26,Helen,Perez,helen.perez@example.com,HIS101,96

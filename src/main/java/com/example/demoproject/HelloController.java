@@ -38,8 +38,6 @@ public class HelloController {
 
     @FXML
     private TextField searchField; // Для поиска студентов
-    @FXML
-    private Label infoLabel;
 
     @FXML private TableView<Student> studentTable;
     @FXML private TableColumn<Student, Integer> idColumn;
@@ -140,12 +138,13 @@ public class HelloController {
     void handleSave(ActionEvent event) {
         try {
             if(idInput.getText().isEmpty() || nameInput.getText().isEmpty() || surnameInput.getText().isEmpty()) {
-                infoLabel.setText("ID, Name and Surname are required!");
                 return;
             }
             int id = Integer.parseInt(idInput.getText());
             int gpa = Integer.parseInt(gpaInput.getText());
-            if(gpa < 0 || gpa > 100) { infoLabel.setText("GPA must be 0-100"); return; }
+           if(gpa < 0 || gpa > 100) {
+                return;
+           }
 
             Student student = new Student(id, nameInput.getText(), surnameInput.getText(),
                     emailInput.getText(), groupInput.getText(), gpa);
@@ -157,9 +156,7 @@ public class HelloController {
             // Очистка полей
             idInput.clear(); nameInput.clear(); surnameInput.clear();
             emailInput.clear(); groupInput.clear(); gpaInput.clear();
-            infoLabel.setText("Student added!");
         } catch(Exception e) {
-            infoLabel.setText("Invalid input");
         }
 
 
@@ -244,7 +241,6 @@ public class HelloController {
         catch(Exception e){
             System.out.println(e.getMessage());
         }
-
     }
 
     private void saveJSON(){
@@ -258,7 +254,6 @@ public class HelloController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     private void readJSON(){
@@ -277,15 +272,6 @@ public class HelloController {
         }
 
     }
-
-    //  @FXML
-   // void onSave(ActionEvent event) {
-
-       // this.saveCSV();
-       // this.saveJSON();
-    // students.add(student);
-   // saveJSON();
-   // saveCSV();
 
 }
 
